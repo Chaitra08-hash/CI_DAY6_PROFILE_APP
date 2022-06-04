@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title=" Skills"
+        android:id="@+id/skill"
+        android:icon="@drawable/setting"/>
+
+    <item
+        android:title=" Training"
+        android:id="@+id/training"
+        android:icon="@drawable/training"/>
+
+    <item
+        android:title=" Milestones"
+        android:id="@+id/milestone"
+        android:icon="@drawable/milestone"/>
+</menu>

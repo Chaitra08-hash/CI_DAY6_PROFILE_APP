@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textview2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+ <TextView
+android:textColor="#685E6A"
+     android:gravity="center"
+     android:text="WELCOME"
+     android:textSize="50sp"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+ </TextView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:src="@drawable/image1">
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/profile"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:text="ENTER MY PROFILE"/>
+
+</LinearLayout>

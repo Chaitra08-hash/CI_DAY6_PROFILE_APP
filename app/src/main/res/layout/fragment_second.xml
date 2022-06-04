@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@drawable/a"
+            android:layout_width="match_parent"
+            android:layout_height="600dp" />
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@drawable/b"
+            android:layout_width="match_parent"
+            android:layout_height="600dp" />
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@drawable/c"
+            android:layout_width="match_parent"
+            android:layout_height="600dp" />
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@drawable/d"
+            android:layout_width="match_parent"
+            android:layout_height="600dp" />
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@drawable/e"
+            android:layout_width="match_parent"
+            android:layout_height="600dp" />
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@drawable/f"
+            android:layout_width="match_parent"
+            android:layout_height="600dp" />
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:src="@drawable/g"
+            android:layout_width="match_parent"
+            android:layout_height="600dp" />
+</LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
